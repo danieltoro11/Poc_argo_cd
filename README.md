@@ -37,14 +37,33 @@ Para ello se colocó a Git en el centro de su canal de entrega para que los desa
 
 
 * Diseñado para Kubernetes
-* Solo se debe realizar push al repo y Argo  realiza el resto de la tarea
-* Argo CD trabaja con la mayoria de herramientas de DevOps (Github, Gitlab, S3 Buckets, CI providers, All major container registries )
-* Argo CD funciona con cualquier cluster de K8S y todas las herramientas de K8S (Kustomize, Helm, RBAC, and policy-driven validation)
+* Interfaz de usuario web que proporciona una vista en tiempo real de la actividad de la aplicación
+* Análisis del estado de salud de los recursos de la aplicación
+* Capacidad para administrar e implementar en múltiples clústeres
+* Soporte para múltiples herramientas de gestión de configuración / plantillas (Kustomize, Helm, Ksonnet, Jsonnet, plain-YAML)
+* CLI para automatización e integración de CI
+Integración de webhook (GitHub, BitBucket, GitLab)
+* Métricas de Prometheus
 
-## Flujo de Proceso (Modelo)
+## Modelo
 
 ![Argo CD Design](./images/design-argocd.png)
 
+## Arquitectura
+
+![Arquitectura](./images/arquitecture-argo.png)
+
+## Prueba de Concepto
+
+- Creación de Proyecto llamado Biometria
+- Asignacion de permisos de Source repositories sobre el Proyecto
+- Se asignó el repositorio donde se encuentran los templates de K8S
+- Se creó una app llamada aplicacion1 y esta se asignó al proyecto Biometria (Se pueden crear mas aplicaciones dentro de un proyecto)
+
+![Dashboard](./images/argocd-dashboard.png)
+
+
 ## Referencias:
-GitOps Definition: 
-Flux CD Documentation
+[GitOps Definition](https://www.weave.works/blog/what-is-gitops-really)
+
+[Argo CD](https://argo-cd.readthedocs.io/en/stable/)
