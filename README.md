@@ -47,7 +47,7 @@ Integración de webhook (GitHub, BitBucket, GitLab)
 
 ## Modelo
 
-![Argo CD Design](./images/design-argocd.png)
+![Argo CD Design](./images/design-argocd.PNG)
 
 ## Arquitectura
 
