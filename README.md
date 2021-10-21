@@ -1,6 +1,3 @@
-# POC ArgoCD
-Example aplication for Argo CD
-
 # GitOps 
 
 La clave de GitOps es la idea de la infraestructura como código, que adopta el mismo enfoque de aprovisionamiento de la infraestructura que utiliza devops para aprovisionar las aplicaciones. 
