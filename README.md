@@ -64,6 +64,7 @@ Integración de webhook (GitHub, BitBucket, GitLab)
 
 
 ## Referencias:
+
 [GitOps Definition](https://www.weave.works/blog/what-is-gitops-really)
 
 [Argo CD](https://argo-cd.readthedocs.io/en/stable/)
