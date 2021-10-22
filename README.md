@@ -28,6 +28,11 @@ Para ello se colocó a Git en el centro de su canal de entrega para que los desa
 * Herramienta de control de codigo fuente (Gitlab, Github, etc)
 * Herramienta u operador de GitOps definido
 * Flujo de proceso definido con actores
+ 
+
+## Comparativa Herramientas
+
+![Argo CD Design](./images/fluxvsargo.png)
 
 
 ## Argo CD

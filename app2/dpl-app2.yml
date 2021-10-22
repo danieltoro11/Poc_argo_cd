@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: echo2
-        image: hashicorp/http-echo:0.2.3
+        image: hashicorp/http-echo
         args:
         - "-text=echo2"
         ports:
